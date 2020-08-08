@@ -2,10 +2,8 @@
 
 [![Build Status](https://travis-ci.org/brodao/act-wizard-nod.svg?branch=master)](https://travis-ci.org/brodao/act-wizard-nod.svg?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/brodao/act-wizard-nod/badge.svg?branch=master)](https://coveralls.io/github/brodao/act-wizard-nod?branch=master)
-[![CC BY license](https://img.shields.io/badge/license-CC%20BY-%2327ad79)](https://creativecommons.org/licenses/by/4.0/)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![CC BY license](https://img.shields.io/badge/license-CC%20BY-%2327ad79)](https://creativecommons.org/licenses/by/4.0/)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Objetivo
 
