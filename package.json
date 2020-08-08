@@ -1,0 +1,97 @@
+{
+  "name": "@brodao/act-wizard-nod",
+  "version": "0.0.0",
+  "description": "Assistentes para geração de código AdvPL a partir de informações do desenvolvedor.",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/brodao/act-wizard-nod",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brodao/act-wizard-nod.git"
+  },
+  "author": {
+    "name": "Alan Cândido",
+    "email": "brodao@gmail.com",
+    "url": "https://github.com/brodao"
+  },
+  "contributors": [],
+  "keywords": [
+    "TDS",
+    "ADVPL",
+    "Protheus",
+    "Wizard"
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index",
+  "types": "lib/index",
+  "scripts": {
+    "clean": "rimraf lib && rimraf coverage",
+    "format": "prettier --write \"{src,__tests__}/**/*.ts\" --single-quote --trailing-comma es5",
+    "lint": "tslint --force --format verbose \"src/**/*.ts\"",
+    "prebuild": "npm run clean && npm run format && npm run lint && echo Using TypeScript && tsc --version",
+    "build": "tsc --pretty",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "watch": "npm run build -- --watch",
+    "watch:test": "jest --watch",
+    "prepublishOnly": "npm run build",
+    "publish": "npm publish",
+    "release": "standard-version",
+    "tag": "git push --follow-tags origin master",
+    "nb": "npm run release -- --prerelease nb"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "@types/jest": "^23.3.3",
+    "@types/node": "^10.11.4",
+    "@zeit/ncc": "^0.22.3",
+    "all-contributors-cli": "^6.17.0",
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "coveralls": "^3.0.2",
+    "got": "^11.1.3",
+    "husky": "^4.2.5",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.3",
+    "rimraf": "^2.6.2",
+    "standard-version": "^8.0.2",
+    "ts-jest": "^23.10.3",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    },
+    "repos": [
+      {
+        "id": "act",
+        "label": "Assistentes AC Tools",
+        "url": "https://github.com/brodao/actools-vscode/src/",
+        "path": "wizards​"
+      },
+      {
+        "id": "act-local",
+        "label": "Assistentes locais",
+        "url": "file://$USER_HOME/actools/",
+        "path": "wizards​"
+      }
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
