@@ -6,7 +6,7 @@
   "files": [
     "README.md"
   ],
-  "imageSize": 100,
+  "imageSize": 50,
   "commit": true,
   "commitConvention": "gitmoji",
   "contributors": [
@@ -16,16 +16,14 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/949914?v=4",
       "profile": "https://github.com/brodao",
       "contributions": [
+        "projectManagement",
         "code",
         "content",
-        "design",
         "doc",
         "ideas",
-        "maintenance",
-        "mentoring",
-        "projectManagement"
+        "maintenance"
       ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 3
 }

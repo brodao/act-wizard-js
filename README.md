@@ -42,14 +42,16 @@ Venha para nossa lista você também. Veja [CONTRIBUTING](CONTRIBUTING.MD) para 
 
 ## Colaboradores
 
-Os agradecimentos vão para ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+_Legendas ([emoji key](https://allcontributors.org/docs/en/emoji-key))_
+
+Os agradecimentos vão para:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/brodao"><img src="https://avatars0.githubusercontent.com/u/949914?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alan Cândido</b></sub></a><br /><a href="https://github.com/brodao/act-wizard-nod/commits?author=brodao" title="Code">💻</a> <a href="#content-brodao" title="Content">🖋</a> <a href="#design-brodao" title="Design">🎨</a> <a href="https://github.com/brodao/act-wizard-nod/commits?author=brodao" title="Documentation">📖</a> <a href="#ideas-brodao" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-brodao" title="Maintenance">🚧</a> <a href="#mentoring-brodao" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-brodao" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://github.com/brodao"><img src="https://avatars0.githubusercontent.com/u/949914?v=4?s=50" width="50px;" alt=""/><br /><sub><b>Alan Cândido</b></sub></a><br /><a href="#projectManagement-brodao" title="Project Management">📆</a> <a href="https://github.com/brodao/act-wizard-nod/commits?author=brodao" title="Code">💻</a> <a href="#content-brodao" title="Content">🖋</a> <a href="https://github.com/brodao/act-wizard-nod/commits?author=brodao" title="Documentation">📖</a> <a href="#ideas-brodao" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-brodao" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 
