@@ -9,6 +9,23 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "gitmoji",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "brodao",
+      "name": "Alan Cândido",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/949914?v=4",
+      "profile": "https://github.com/brodao",
+      "contributions": [
+        "code",
+        "content",
+        "design",
+        "doc",
+        "ideas",
+        "maintenance",
+        "mentoring",
+        "projectManagement"
+      ]
+    }
+  ],
   "contributorsPerLine": 7
 }

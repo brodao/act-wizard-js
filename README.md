@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/brodao/act-wizard-nod/badge.svg?branch=master)](https://coveralls.io/github/brodao/act-wizard-nod?branch=master)
 [![CC BY license](https://img.shields.io/badge/license-CC%20BY-%2327ad79)](https://creativecommons.org/licenses/by/4.0/)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Objetivo
@@ -47,6 +47,12 @@ Os agradecimentos vão para ([emoji key](https://allcontributors.org/docs/en/emo
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/brodao"><img src="https://avatars0.githubusercontent.com/u/949914?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alan Cândido</b></sub></a><br /><a href="https://github.com/brodao/act-wizard-nod/commits?author=brodao" title="Code">💻</a> <a href="#content-brodao" title="Content">🖋</a> <a href="#design-brodao" title="Design">🎨</a> <a href="https://github.com/brodao/act-wizard-nod/commits?author=brodao" title="Documentation">📖</a> <a href="#ideas-brodao" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-brodao" title="Maintenance">🚧</a> <a href="#mentoring-brodao" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-brodao" title="Project Management">📆</a></td>
+  </tr>
+</table>
+
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
