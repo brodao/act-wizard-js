@@ -40,9 +40,7 @@ Venha para nossa lista você também. Veja [CONTRIBUTING](CONTRIBUTING.MD) para 
 
 ## Colaboradores
 
-_Legendas ([emoji key](https://allcontributors.org/docs/en/emoji-key))_
-
-Os agradecimentos vão para:
+Nossos sinceros agradecimentos vão para: _([emoji key](https://allcontributors.org/docs/en/emoji-key))_
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
