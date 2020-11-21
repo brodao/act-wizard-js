@@ -46,7 +46,7 @@
 		"-- MISC --": "",
 		"contributors:add": "all-contributors add",
 		"contributors:generate": "all-contributors generate",
-		"act:link": "npm link ..\\act-core-js"
+		"act:link": "npm link ../act-core-js"
 	},
 	"dependencies": {},
 	"devDependencies": {
