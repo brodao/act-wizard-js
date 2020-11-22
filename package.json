@@ -48,7 +48,10 @@
 		"contributors:generate": "all-contributors generate",
 		"act:link": "npm link ../act-core-js"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"strip-json-comments": "^3.1.1",
+		"@brodao/act-core-js": "^0.0.1"
+	},
 	"devDependencies": {
 		"@brodao/act-jest-snapshot-console": "^1.0.2",
 		"@commitlint/cli": "^11.0.0",

@@ -1,9 +1,3 @@
-/**
- * Inspired by create-next-app
- */
-import JsonFile, { JSONObject } from '@expo/json-file';
-import chalk from 'chalk';
-import fs from 'fs';
 import got from 'got';
 import path from 'path';
 import prompts from 'prompts';
@@ -12,6 +6,7 @@ import tar from 'tar';
 import terminalLink from 'terminal-link';
 import { promisify } from 'util';
 import { RepoInfo, hasRepo } from './repoInfo';
+import * as actlogger from "@brodao/act-act-core-js"
 
 // @ts-ignore
 const pipeline = promisify(Stream.pipeline);
@@ -41,7 +36,7 @@ export async function promptAsync(repos: any[]): Promise<string | null> {
 	});
 
 	if (!value) {
-		console.log();
+		actlogger.log();
 		console.log('Especifique o assistente');
 		process.exit(1);
 	}
@@ -253,6 +248,7 @@ function getScriptsForProject(projectRoot: string): Record<string, string> {
 export async function appendScriptsAsync(projectRoot: string): Promise<void> {
 	// Copy our default `.gitignore` if the application did not provide one
 	const packageJsonPath = path.join(projectRoot, 'package.json');
+	
 	if (fs.existsSync(packageJsonPath)) {
 		let packageFile = new JsonFile(packageJsonPath);
 		let packageJson = await packageFile.readAsync();
